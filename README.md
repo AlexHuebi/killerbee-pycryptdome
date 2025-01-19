@@ -1,3 +1,11 @@
+**Notice** 
+
+This is a fork of the original KillerBee Framework. 
+It contains the following patches: 
+* Change `pycrypto` dependency to `pycryptodome`
+* Fixed Bug, where the KillerBee class would not pass the USB Device String to the "search_usb" function, resulting in it always choosing the first device even when defined otherwise. This made it impossible to run more than one instance on one Device.
+--------
+
 KillerBee
 ================
 
